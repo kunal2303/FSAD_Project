@@ -1,0 +1,11 @@
+package com.rms.domain.notification;
+
+public enum NotificationType {
+    APPLICATION_SUBMITTED,
+    APPLICATION_STATUS_CHANGED,
+    INTERVIEW_SCHEDULED,
+    INTERVIEW_REMINDER,
+    OFFER_EXTENDED,
+    OFFER_ACCEPTED,
+    OFFER_DECLINED
+}
